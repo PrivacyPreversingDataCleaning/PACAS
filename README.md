@@ -37,12 +37,13 @@ drug_name
 ```
 
 **Functional Dependencies:**
+```
 age, overall_status, diagnosis -> drug_name
 overall_status, time_frame, measure -> condition
-
+```
 
 ### Census Dataset 
-The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and provides population characteristics such as education level, years of schooling, occupation, income, and age, etc.
+The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and provides population characteristics such as education level, years of schooling, occupation, income, and age, etc. The original dataset provides the attribute names in abbreviation (for example, ACLSWKR denotes class of worker), so I rewrite all attribute names in extended format. 
 
 **Attribute Schema**   
 ```
@@ -95,9 +96,10 @@ weeks worked in year WKSWORK
 ```
 
 **Functional Dependencies:**
- age, education-num -> education
- age, industry code, occupation -> wage-per-hour 
-
+```
+age, education-num -> education
+age, industry code, occupation -> wage-per-hour 
+```
 
 ### Food Inspection
 This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/), which  has 11 attributs and provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
@@ -105,14 +107,25 @@ This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/),
 **Attribute Schema**
 
 ```
-borough, address, violation code, violation description, zipcode, cuisine
-description, action, inspection type, critical flag, score, grade
+borough
+address
+violation code
+violation description
+zipcode
+cuisine
+description
+action
+inspection type
+critical flag
+score
+grade
 ```
 
 **Functional Dependencies:**
+```
 borough, zipcode -> address
 violation code, inspection type -> violation description
-
+```
 
 ## Source Code
 The source code is available [here](https://github.com/PrivacyPreversingDataCleaning/Privacy-Aware-Data-Cleaning-as-a-Service).
