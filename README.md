@@ -1,7 +1,7 @@
 ## Datasets
 
 ### Clinical Trials Dataset
-This dataset contains international clinical trials record from different countries. We used a portion of this dataset that includes data from four countries: Canada, Germany, Italy and Japan. It is available from [source](https://old.datahub.io/dataset/linkedct). It has 29 attributes and describes patient demographics, diagnosis, symptoms, condition, etc.
+This dataset has 29 attributes and contains international clinical trials record from different countries. It describes the trial information of patient, such as patient demographics, diagnosis, symptoms, condition, etc.  We used a portion of this dataset that includes data from four countries: Canada, Germany, Italy and Japan. It is available from [source](https://old.datahub.io/dataset/linkedct). 
 
 **Attribute Schema**   
 ```
@@ -43,7 +43,7 @@ overall_status, time_frame, measure -> condition
 ```
 
 ### Census Dataset 
-The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and provides population characteristics such as education, wage per hour, occupation, income, and age, sex, etc. The original dataset provides the attribute names in abbreviation (for example, ACLSWKR denotes class of worker), so I rewrite all attribute names in extended format. 
+The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and describes population characteristics such as education, wage per hour, occupation, income, and age, sex, etc. The original dataset provides the attribute names in abbreviation (for example, ACLSWKR denotes class of worker), so I rewrite all attribute names in extended format. 
 
 **Attribute Schema**   
 ```
@@ -102,7 +102,7 @@ age, industry code, occupation -> wage-per-hour
 ```
 
 ### Food Inspection
-This dataset is from the NYU open data [source](https://opendata.cityofnewyork.us/), which has 11 attributes and provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
+This dataset is from the NYU open data [source](https://opendata.cityofnewyork.us/). It has 11 attributes and describes the violation citations of inspected restaurants in New York City, as well as some basic information about the restaurants, such as restaurant address, zipcode, violation code, violation description, etc.
 
 **Attribute Schema**
 
