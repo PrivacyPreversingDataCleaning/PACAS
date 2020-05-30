@@ -43,7 +43,7 @@ overall_status, time_frame, measure -> condition
 ```
 
 ### Census Dataset 
-The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and provides population characteristics such as education level, years of schooling, occupation, income, and age, etc. The original dataset provides the attribute names in abbreviation (for example, ACLSWKR denotes class of worker), so I rewrite all attribute names in extended format. 
+The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and provides population characteristics such as education, wage per hour, occupation, income, and age, sex, etc. The original dataset provides the attribute names in abbreviation (for example, ACLSWKR denotes class of worker), so I rewrite all attribute names in extended format. 
 
 **Attribute Schema**   
 ```
@@ -102,7 +102,7 @@ age, industry code, occupation -> wage-per-hour
 ```
 
 ### Food Inspection
-This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/), which  has 11 attributs and provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
+This dataset is from the NYU open data [source](https://opendata.cityofnewyork.us/), which has 11 attributes and provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
 
 **Attribute Schema**
 
