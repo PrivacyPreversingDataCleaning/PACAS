@@ -43,7 +43,7 @@ overall_status, time_frame, measure -> condition
 ```
 
 ### Census Dataset 
-The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and describes population characteristics such as education, wage per hour, occupation, income, and age, sex, etc. The original dataset provides the attribute names in abbreviation (for example, ACLSWKR denotes class of worker), so I rewrite all attribute names in extended format. 
+The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and describes population characteristics such as education, wage per hour, occupation, income, and age, sex, etc. The original dataset provides the attribute names in abbreviation (for example, ACLSWKR denotes class of worker), so I rewrite all attribute names in an extended format. 
 
 **Attribute Schema**   
 ```
