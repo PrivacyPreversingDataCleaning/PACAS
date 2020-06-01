@@ -38,12 +38,12 @@ drug_name
 
 **Functional Dependencies:**
 ```
-age, overall_status, diagnosis -> drug_name
-overall_status, time_frame, measure -> condition
+[age, overall_status, diagnosis] -> [drug_name]
+[overall_status, time_frame, measure] -> [condition]
 ```
 
 ### Census Dataset 
-The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and describes population characteristics such as education, wage per hour, occupation, income, and age, sex, etc. The original dataset provides the attribute names in abbreviation (for example, ACLSWKR denotes class of worker), so I rewrite all attribute names in an extended format. 
+The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and describes population characteristics such as education, wage per hour, occupation, income, and age, sex, etc. Please find below the list of attributes used in our evaluation.
 
 **Attribute Schema**   
 ```
@@ -97,12 +97,12 @@ weeks worked in year WKSWORK
 
 **Functional Dependencies:**
 ```
-age, education-num -> education
-age, industry code, occupation -> wage-per-hour 
+[age, education-num] -> [education]
+[age, industry code, occupation] -> [wage-per-hour] 
 ```
 
 ### Food Inspection
-This dataset is from the NYU open data [source](https://opendata.cityofnewyork.us/). It has 11 attributes and describes the violation citations of inspected restaurants in New York City, as well as some basic information about the restaurants, such as restaurant address, zipcode, violation code, violation description, etc.
+This dataset is from the NYU open data [source](https://opendata.cityofnewyork.us/). It has 11 attributes and describes the violation citations of inspected restaurants in New York City, as well as information about the restaurants, such as restaurant address, zipcode, violation code, violation description, etc.
 
 **Attribute Schema**
 
@@ -123,8 +123,8 @@ grade
 
 **Functional Dependencies:**
 ```
-borough, zipcode -> address
-violation code, inspection type -> violation description
+[borough, zipcode] -> [address]
+[violation code, inspection type] -> [violation description]
 ```
 
 ## Source Code
