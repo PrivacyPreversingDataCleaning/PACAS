@@ -38,7 +38,7 @@ drug_name
 
 **Functional Dependencies:**
 ```
-[age, overall_status, diagnosis] -> [drug_name]
+[age, overall_status, gender] -> [drug_name]
 [overall_status, time_frame, measure] -> [condition]
 ```
 
