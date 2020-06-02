@@ -21,7 +21,6 @@ phase
 study_type
 study_design
 number_of_arms
-diagnosis
 enrollment
 biospec_retention
 eligibility_sampling_method
