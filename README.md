@@ -126,5 +126,7 @@ grade
 [violation code, inspection type] -> [violation description]
 ```
 
+<!---
 ## Source Code
 The source code is available [here](https://github.com/PrivacyPreversingDataCleaning/Privacy-Aware-Data-Cleaning-as-a-Service).
+-->
